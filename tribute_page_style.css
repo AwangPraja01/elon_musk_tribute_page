@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #1a508b;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+.main_page {
+  margin: 50px 0 60px 0;
+}
+
+.figure_name {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 4em;
+  letter-spacing: 0.1em;
+}
+
+.figure_quote {
+  text-align: center;
+  font-style: italic;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 40px 0;
+}
+
+.figure_image {
+  filter: grayscale(100%);
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.figure_description {
+  text-align: center;
+  margin: 45px auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  display: block;
+  width: 70%;
+}
+
+.figure_timeline_and_wikipedia_source {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.timeline_title {
+  padding: 0.5em 0;
+  margin-bottom: 20px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.figure_timeline_event {
+  padding: 0.5em 0.8em;
+  color: white;
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  list-style-position: inside;
+  margin-bottom: 30px;
+}
+
+.wikipedia_source {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 770px) {
+  .figure_quote {
+    margin: 30px 0;
+    padding: 0 20px;
+  }
+
+  .figure_description {
+    text-align: justify;
+    font-size: 1.3em;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .figure_name {
+    font-size: 3.25em;
+  }
+
+  .figure_quote {
+    margin: 30px 0;
+    font-size: 1em;
+    padding: 0 20px;
+  }
+
+  .figure_description {
+    text-align: justify;
+    font-size: 1em;
+    width: 80%;
+  }
+
+  .timeline_title {
+    padding: 8px 5px;
+  }
+
+  .figure_timeline_event,
+  .timeline_title {
+    font-size: 1em;
+  }
+
+  .wikipedia_source {
+    text-align: justify;
+    font-size: 1.1em;
+  }
+}
