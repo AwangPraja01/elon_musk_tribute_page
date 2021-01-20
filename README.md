@@ -8,7 +8,7 @@ You can see the results of this project by opening the following link https://co
 Tools used in the processing of this award page is as follows :
 * Visual Studio Code
 
-# Language :
+# Language :computer:
 The language used in making of this award page is as follows :
 * HTML
 * CSS
