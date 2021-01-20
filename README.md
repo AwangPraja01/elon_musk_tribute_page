@@ -8,6 +8,11 @@ You can see the results of this project by opening the following link https://co
 Tools used in the processing of this award page is as follows :
 * Visual Studio Code
 
+# Language :
+The language used in making of this award page is as follows :
+* HTML
+* CSS
+
 # Reference Source :link:
 * https://wallpapercave.com/elon-musk-wallpapers
 * https://www.inc.com/larry-kim/50-innovation-amp;-success-quotes-from-spacex-founder-elon-musk.html
